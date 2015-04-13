@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo Launching Activities</string>
+    <string name="main">Main Activity</string>
+    <string name="explicit">Explicit Activity</string>
+    <string name="OpenExplicit">Open Explicit Activity</string>
+    <string name="ToonDialoog">Toon Dialoogvenster</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Copyright">Copyrights</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_explicit">ExplicitActivity</string>
+
+</resources>

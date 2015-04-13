@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/uwGegevens" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uwGegevens" />
+
+    <EditText
+        android:hint="@string/uwNaam"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uwGegevens"
+        android:id="@+id/txtNaam" />
+
+    <EditText
+        android:hint="@string/uwVoornaam"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNaam"
+        android:id="@+id/txtVoornaam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Geboortejaar"
+        android:id="@+id/txtGeboortejaar"
+        android:layout_below="@+id/txtVoornaam"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtVoornaam" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SelecteerJaar"
+        android:id="@+id/btnGeboortejaar"
+        android:layout_below="@+id/txtGeboortejaar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SelecteerHoroscoop"
+        android:id="@+id/btnHoroscoop"
+        android:layout_below="@+id/btnGeboortejaar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

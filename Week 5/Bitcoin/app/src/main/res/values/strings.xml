@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bitcoin</string>
+    <string name="tvBedragEuro">uw bedrag in €:</string>
+    <string name="txtBedragEuro">0.0 €</string>
+    <string name="tvBedragBitcoin">uw bedrag in Bitcoin:</string>
+    <string name="txtBedragBitcoin">0 bitcoin</string>
+    <string name="btnNaarBitcoin">Naar bitcoin</string>
+    <string name="btnNaarEuro">Naar euro</string>
+    <string name="tvVerhoudingBitcoinEuro">1 bitcoin = 100.0 €</string>
+    <string name="btnWijzigkoers">Wijzig koers euro - bitcoin</string>
+
+    <string name="tvBitcoin">1 Bitcoin =</string>
+    <string name="txtEuroBitcoin">0.0 €</string>
+    <string name="btnWijzigen">Wijzigen</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

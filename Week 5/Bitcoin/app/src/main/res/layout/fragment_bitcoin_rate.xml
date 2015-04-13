@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="nmct.howest.be.bitcoin.BitcoinRateFragment">
+
+    <TextView android:text="@string/tvBitcoin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBitcoin"
+        />
+
+    <EditText android:hint="@string/txtEuroBitcoin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEuroBitcoin"
+        android:layout_below="@+id/tvBitcoin"
+        />
+
+    <Button
+        android:text="@string/btnWijzigen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnWijzigen"
+        android:layout_below="@id/txtEuroBitcoin"
+        style="@style/CustomStyleButton"
+        />
+
+</FrameLayout>

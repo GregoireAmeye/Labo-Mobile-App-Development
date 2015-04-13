@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Horoscoop</string>
+    <string name="uwGegevens">Uw gegevens</string>
+    <string name="uwNaam">Uw naam</string>
+    <string name="uwVoornaam">Uw voornaam</string>
+    <string name="Geboortejaar">Geboortejaar: </string>
+    <string name="SelecteerJaar">Selecteer uw geboortejaar</string>
+    <string name="SelecteerHoroscoop">Selecteer uw horoscoop</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

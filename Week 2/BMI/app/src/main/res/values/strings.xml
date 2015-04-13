@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI</string>
+    <string name="textViewYI">Your input</string>
+    <string name="txtHeight">Your height (in cm)</string>
+    <string name="txtMass">Your mass (in kg)</string>
+    <string name="btnUpdate">update</string>
+    <string name="textViewInfo">your bmi info</string>
+    <string name="textViewIndex">Index:</string>
+    <string name="textViewCategorie">Category:</string>
+    <string name="txtIndex">enter your info first</string>
+    <string name="txtCategorie">enter your info first</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

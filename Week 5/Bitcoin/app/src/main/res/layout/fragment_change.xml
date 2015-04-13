@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="nmct.howest.be.bitcoin.ChangeFragment">
+
+    <TextView android:text="@string/tvBedragEuro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBedragEuro"
+        style="?android:attr/listSeparatorTextViewStyle"
+        />
+
+    <EditText android:hint="@string/txtBedragEuro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBedragEuro"
+        android:layout_below="@+id/tvBedragEuro"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtBedragEuro"
+        android:id="@+id/flButtons">
+
+        <Button
+            android:text="@string/btnNaarBitcoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNaarBitcoin"
+            android:layout_marginRight="15dp"
+            android:drawableLeft="@drawable/arrow_down"
+            style="@style/CustomStyleButton"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNaarEuro"
+            android:layout_toEndOf="@id/btnNaarBitcoin"
+            android:drawableLeft="@drawable/arrow_down"
+            style="@style/CustomStyleButton"
+            android:text="@string/btnNaarEuro"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            />
+    </LinearLayout>
+
+
+    <TextView android:text="@string/tvBedragBitcoin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBedragBitcoin"
+        android:layout_below="@id/flButtons"
+        style="?android:attr/listSeparatorTextViewStyle"
+        />
+
+    <EditText android:hint="@string/txtBedragBitcoin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBedragBitcoin"
+        android:layout_below="@id/tvBedragBitcoin"
+        />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnWijzigKoers"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btnWijzigkoers"
+        style="@style/CustomStyleButton"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvKoers"
+        android:layout_above="@id/btnWijzigKoers"
+        android:text="@string/tvVerhoudingBitcoinEuro"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

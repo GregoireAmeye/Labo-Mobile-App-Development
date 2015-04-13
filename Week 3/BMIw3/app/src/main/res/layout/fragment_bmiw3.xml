@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".BMIw3Activity$PlaceholderFragment">
+
+    <TextView android:text="@string/textViewYI"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewYourInput"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <EditText android:hint="@string/txtHeight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtYourHeight"
+        android:layout_below="@id/textViewYourInput"
+        android:inputType="numberDecimal"/>
+
+    <EditText android:hint="@string/txtMass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtYourMass"
+        android:layout_below="@id/txtYourHeight"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:text="@string/btnUpdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtYourMass"
+        android:id="@+id/btnUpdate"/>
+
+    <TextView android:text="@string/textViewInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewInfo"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_below="@id/btnUpdate"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgSilhouette"
+        android:src="@drawable/silhouette_1"
+        android:layout_below="@id/textViewInfo"/>
+
+    <TextView android:text="@string/textViewIndex"
+        android:layout_width="240px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewInfo"
+        android:id="@+id/textViewIndex"
+        android:layout_toEndOf="@+id/imgSilhouette"
+        android:layout_marginLeft="40px"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:text="@string/textViewCategorie"
+        android:layout_width="240px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewIndex"
+        android:id="@+id/textViewCategorie"
+        android:layout_toEndOf="@+id/imgSilhouette"
+        android:layout_marginLeft="40px"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:text="@string/txtIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIndex"
+        android:layout_below="@+id/textViewInfo"
+        android:layout_toRightOf="@+id/textViewIndex"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="10px"
+        />
+
+    <TextView android:text="@string/txtCategorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtIndex"
+        android:id="@+id/txtCategorie"
+        android:layout_toRightOf="@+id/textViewCategorie"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="15px"/>
+
+</RelativeLayout>
